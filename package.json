@@ -1,0 +1,23 @@
+{
+  "name": "cypress-nodejs",
+  "version": "1.0.0",
+  "description": "Automação de Testes com Cypress e NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sheyslong/cypress-nodejs.git"
+  },
+  "author": "Sheilla da Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sheyslong/cypress-nodejs/issues"
+  },
+  "homepage": "https://github.com/sheyslong/cypress-nodejs#readme",
+  "dependencies": {
+    "cypress": "^4.12.1"
+  }
+}
