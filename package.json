@@ -4,6 +4,7 @@
   "description": "Automação de Testes com Cypress e NodeJS",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "test": "echo \"Error: no test specified\" && exit 1",
     "cypress": "cypress open"
   },
@@ -18,6 +19,8 @@
   },
   "homepage": "https://github.com/sheyslong/cypress-nodejs#readme",
   "dependencies": {
-    "cypress": "^4.12.1"
+    "cypress": "^4.12.1",
+    "fs": "0.0.1-security",
+    "node-xlsx": "^0.15.0"
   }
 }
